@@ -248,26 +248,22 @@ button {
    ------------------- */
 
 .about-img {
-    
-    padding: 0 15px;
+    max-width: 360px;
+    background-color: var(--white-alpha-25);
+    border-radius: 50%;
+    border: 8px solid var(--white-alpha-25);
+    margin: auto;
+
+}
+
+.about-img .img-box img {
+    width: 100%;
+    border-radius: 50%;
 }
 
 .about-text {
     width: 60%;
     padding: 0 15px;
-}
-
-.about-img .img-box {
-    background-color: var(--white-alpha-25);
-    max-width: 380px;
-    border: 1px solid var(--white-alpha-40);
-    margin: auto;
-    border-radius: 10px;
-}
-
-.about-img .img-box img {
-    width: 100%;
-    size: 50px;
 }
 
 .about-text h3 {
@@ -359,7 +355,7 @@ button {
     display: none;
 }
 
-.about-text .tab-content.acive {
+.about-text .tab-content.active {
     display: block;
 }
 
@@ -400,3 +396,8 @@ button {
 .about-text .timeline-item h4 span {
     font-weight: 400;
 }
+.about-text .btn {
+    margin: 0 15px 15px 0;
+}
+
+
