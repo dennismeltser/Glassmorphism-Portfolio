@@ -135,6 +135,10 @@ section.fade-out {
     align-items: center;
 }
 
+.justify-content-center {
+    justify-content: center;
+}
+
 .hidden {
     display: none !important;
 }
@@ -304,7 +308,7 @@ button {
     height: 80px;
     width: 80px;
     background-color: var(--main-color);
-    left: 30%;
+    left: 40%;
     top: 50%;
     opacity: 0.4;
     animation: bounceTop 5s ease-in-out infinite;
@@ -607,6 +611,13 @@ button {
     border-radius: 50%;
 }
 
+.home-img .social-links {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* -------------------
     ABOUT SECTION
    ------------------- */
@@ -892,10 +903,15 @@ button {
      Contact Section
    ------------------- */
 
-.contact-form,
-.contact-info {
+.contact-form {
     width: 50%;
     padding: 0 15px;
+}
+
+.contact-form form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact-form .input-group {
@@ -935,18 +951,7 @@ button {
     padding-top: 15px;
 }
 
-.contact-info-item {
-    margin: 0 0 30px;
-    padding: 0 0 0 20px;
-}
-
-.contact-info-item h3 {
-    font-size: 20px;
-    text-transform: capitalize;
-    margin: 0 0 5px;
-}
-
-.contact-info-item .social-links a{
+.social-links a{
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -960,7 +965,7 @@ button {
     transition: all 0.3s ease;
 }
 
-.contact-info-item .social-links a:hover {
+.social-links a:hover {
     color: var(--white);
     background-color: var(--main-color);
 }
