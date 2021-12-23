@@ -545,7 +545,7 @@ button {
     position: absolute;
     right: 0;
     bottom: 0;
-    height: 50%;
+    height: 100%;
     width: 0%;
     background-color: var(--white-alpha-25);
     z-index: -1;
@@ -895,7 +895,7 @@ button {
 } 
 
 .pp-body .general-info li a {
-    text-transform: lowercase;
+    text-transform: capitalize;
     color: var(--main-color);
 }
 
