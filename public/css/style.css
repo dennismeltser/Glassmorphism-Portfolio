@@ -1,14 +1,11 @@
-
 /* -------------------
          FONTS
    ------------------- */
 @import url('https://fonts.googleapis.com/css2?amily=Poppins:wght@300;400;500;600;700&display=swap');
 
-
 /* -------------------
     VARIABLE SETTINGS
    ------------------- */
-
 :root {
     --main-color: #e02f6b;
     --blue: #0000ff;
@@ -24,11 +21,9 @@
 
 }
 
-
 /* -------------------
     GLOBAL SETTINGS
    ------------------- */
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -150,9 +145,11 @@ section.fade-out {
 .flex-end {
     justify-content: flex-end;
 }
+
 /* -------------------
      SECTION TITLE
    ------------------- */
+
 .section-title {
     padding: 0 15px;
     width: 100%;
@@ -168,6 +165,7 @@ section.fade-out {
 /* -------------------
     CUSTOM SCROLLBAR
    ------------------- */
+
 ::-webkit-scrollbar {
     width: 5px;
 }
@@ -183,12 +181,13 @@ section.fade-out {
 /* -------------------
         BUTTONS
    ------------------- */
+
 button {
     font-family: inherit;
     user-select: none;
 }
 
-   .btn {
+.btn {
     line-height: 1.5;
     background-color: var(--white-alpha-25);
     border: 1px solid var(--white-alpha-40);
@@ -231,6 +230,7 @@ button {
 /* -------------------
    ANIMATION KEYFRAMES
    ------------------- */
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
@@ -279,6 +279,7 @@ button {
 /* -------------------
     OVERLAY SECTION
    ------------------- */
+
 .bg-circles {
     position: fixed;
     top: 0;
@@ -334,6 +335,7 @@ button {
 /* -------------------
     OVERLAY SECTION
    ------------------- */
+
 .overlay {
     position: fixed;
     left: 0;
@@ -352,6 +354,7 @@ button {
 /* -------------------
       PAGE LOADER
    ------------------- */
+
 .page-loader {
     position: fixed;
     left: 0;
@@ -403,6 +406,7 @@ button {
 /* -------------------
     HEADER SECTION
    ------------------- */
+
 .header {
     position: absolute;
     left: 0;
@@ -628,7 +632,6 @@ button {
     border-radius: 50%;
     border: 8px solid var(--white-alpha-25);
     margin: auto;
-
 }
 
 .about-img .img-box img {
@@ -778,6 +781,7 @@ button {
 /* -------------------
     PORTFOLIO SECTION
    ------------------- */
+   
 .portfolio-section {
     padding-bottom: 50px;
 }
